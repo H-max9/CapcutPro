@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Discover the Ultimate Guide to CapCut Pro APK. Explore its feature architecture, AI automation tools, official version specifications, installation steps, and safety guidelines.">
+    <title>The Ultimate Guide to CapCut Pro APK: Architecture, AI Features, & Safety</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div id="readingProgress" class="reading-progress"></div>
+    <!-- Background Gradients -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="assets/capcut-logo.webp" alt="CapCut logo" class="logo-img">
+                <span class="logo-text">CapCut<span>Pro</span> <small class="logo-badge">Guide</small></span>
+            </div>
+            <nav class="desktop-nav">
+                <a href="#architecture" class="nav-link">Architecture</a>
+                <a href="#ai-pipelines" class="nav-link">AI Features</a>
+                <a href="#technical-specs" class="nav-link">Technical Specs</a>
+                <a href="#security-threats" class="nav-link">Security Audit</a>
+                <a href="#comparison" class="nav-link">Free vs Pro</a>
+                <a href="#deployment" class="nav-link">Installation</a>
+                <a href="#troubleshooting" class="nav-link">Troubleshoot</a>
+            </nav>
+            <div class="nav-cta-group">
+                <a href="#download" class="btn btn-primary btn-nav-download" id="navDownloadBtn">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Download APK
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav" id="mobileNav">
+        <a href="#architecture" class="mobile-nav-link">Architecture</a>
+        <a href="#ai-pipelines" class="mobile-nav-link">AI Features</a>
+        <a href="#technical-specs" class="mobile-nav-link">Technical Specs</a>
+        <a href="#security-threats" class="mobile-nav-link">Security Audit</a>
+        <a href="#comparison" class="mobile-nav-link">Free vs Pro</a>
+        <a href="#deployment" class="mobile-nav-link">Installation</a>
+        <a href="#troubleshooting" class="mobile-nav-link">Troubleshoot</a>
+        <a href="#download" class="mobile-nav-link mobile-download-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download APK
+        </a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge-container">
+                    <span class="hero-badge">Architectural & Deployment Guide</span>
+                </div>
+                <h1 class="hero-title">The Ultimate Guide to <span class="gradient-text">CapCut Pro</span></h1>
+                <p class="hero-description">
+                    An exhaustive architectural breakdown of ByteDance's video processing engine, next-generation AI integrations, mobile deployment models, and a vital cybersecurity analysis.
+                </p>
+                <div class="hero-actions">
+                    <a href="#download" class="btn btn-primary btn-download-hero" id="heroDownloadBtn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Download CapCut Pro APK
+                    </a>
+                    <a href="#architecture" class="btn btn-secondary">Explore Guide</a>
+                </div>
+                <div class="hero-meta">
+                    <span class="meta-tag">✓ Official Source</span>
+                    <span class="meta-tag">✓ Virus-Free</span>
+                    <span class="meta-tag">✓ Android 6.0+</span>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-showcase">
+                    <figure class="phone-shot phone-shot-main">
+                        <img src="assets/capcut-editor.webp" alt="CapCut editor timeline on a phone screen" loading="eager">
+                        <figcaption>Timeline editor</figcaption>
+                    </figure>
+                    <div class="phone-shot-stack">
+                        <figure class="phone-shot phone-shot-small">
+                            <img src="assets/capcut-home.webp" alt="CapCut home screen and new project button" loading="lazy">
+                            <figcaption>Creator tools</figcaption>
+                        </figure>
+                        <figure class="phone-shot phone-shot-small">
+                            <img src="assets/capcut-effects.webp" alt="CapCut high-quality effects panel" loading="lazy">
+                            <figcaption>Effects library</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Container -->
+    <main class="container main-layout">
+        <!-- Sidebar Navigation for Desktop -->
+        <aside class="sidebar-nav">
+            <div class="sidebar-sticky">
+                <h3 class="sidebar-title">Sections</h3>
+                <ul class="sidebar-list">
+                    <li><a href="#architecture" class="sidebar-link active">1. Feature Architecture</a></li>
+                    <li><a href="#ai-pipelines" class="sidebar-link">2. AI Automation</a></li>
+                    <li><a href="#assets" class="sidebar-link">3. Asset Libraries</a></li>
+                    <li><a href="#technical-specs" class="sidebar-link">4. Device Specs</a></li>
+                    <li><a href="#security-threats" class="sidebar-link">5. Security Audit</a></li>
+                    <li><a href="#comparison" class="sidebar-link">6. Free vs Pro</a></li>
+                    <li><a href="#deployment" class="sidebar-link">7. Safe Installation</a></li>
+                    <li><a href="#troubleshooting" class="sidebar-link">8. Troubleshooting</a></li>
+                    <li><a href="#faq" class="sidebar-link">9. FAQs</a></li>
+                    <li><a href="#download" class="sidebar-link">10. Download</a></li>
+                </ul>
+                <a href="#download" class="sidebar-download-btn">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Download APK Now
+                </a>
+            </div>
+        </aside>
+
+        <!-- Documentation Body -->
+        <div class="doc-content">
+            <!-- Section 1: Feature Architecture -->
+            <section id="architecture" class="doc-section scroll-spy-target">
+                <h2>1. Deep-Dive Feature Architecture of CapCut Video Editor</h2>
+                <p>
+                    CapCut's success stems from its multi-tier feature architecture, which segments editing workflows into basic mechanical operations, advanced timeline manipulation, and intelligent automated tasks. This design accommodates a wide spectrum of user experience levels while maintaining high rendering efficiency on mobile chipsets.
+                </p>
+
+                <div class="grid grid-2">
+                    <div class="glass-card section-card">
+                        <div class="card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22V4c0-.5.2-1 .6-1.4C5 2.2 5.5 2 6 2h12c.5 0 1 .2 1.4.6.4.4.6.9.6 1.4v18l-8-4-8 4z"/></svg>
+                        </div>
+                        <h3>Basic Video Editing Mechanics</h3>
+                        <p>At its foundational tier, CapCut handles non-destructive asset trimming, clip splitting, and timeline sequence merging with zero performance lag.</p>
+                        <ul class="styled-list">
+                            <li><strong>Precision Splitting & Trimming:</strong> Frame-accurate slicing, letting creators isolate specific visual regions and remove unwanted frames.</li>
+                            <li><strong>Freeze Frames:</strong> Highlight pivotal moments by stopping a single frame within a video asset and extending it with dynamic zoom in/out effects.</li>
+                            <li><strong>Transition Engine:</strong> Dynamic directional blurs, glitches, and dissolves that bridge clips smoothly to maintain narrative continuity.</li>
+                        </ul>
+                    </div>
+
+                    <div class="glass-card section-card">
+                        <div class="card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                        </div>
+                        <h3>Advanced Video Editing Suite</h3>
+                        <p>For advanced mobile creators, CapCut introduces professional-tier controls that match desktop post-production suites.</p>
+                        <ul class="styled-list">
+                            <li><strong>Universal Keyframe Animation:</strong> Plot coordinates for position, scale, opacity, and rotation over time across almost all parameter tracks.</li>
+                            <li><strong>Chroma Key Processing:</strong> Isolates specific color channels with adjustable intensity and shadow thresholds to clean up edge fringes.</li>
+                            <li><strong>Multi-Track Timeline:</strong> Stack multiple video tracks, overlays, text blocks, adjustments, and audios with independent controls.</li>
+                            <li><strong>Hardware-Based Stabilization:</strong> Corrects shaky handheld footage by cropping minor margins and applying positional shifts.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Interactive Curve/Flow Visualizer Box -->
+                <div class="interactive-sandbox glass-card margin-top">
+                    <h4>Interactive Technical Demo: Speed Curves vs. Optical Flow</h4>
+                    <p class="text-muted small">Toggle these options to visualize how CapCut executes complex frame computations inside its rendering engine.</p>
+                    
+                    <div class="sandbox-controls">
+                        <button class="sandbox-btn active" id="btnSpeedCurve">Variable Speed Curves</button>
+                        <button class="sandbox-btn" id="btnOpticalFlow">Optical Flow Interpolation</button>
+                    </div>
+
+                    <div class="sandbox-display">
+                        <!-- Speed Curve Demo -->
+                        <div class="demo-wrapper" id="demoSpeedCurve">
+                            <div class="curve-graph">
+                                <svg viewBox="0 0 400 150" class="svg-graph">
+                                    <path d="M 10 130 C 100 130, 150 20, 200 20 C 250 20, 300 130, 390 130" fill="none" stroke="#00f2fe" stroke-width="3" id="curvePath"/>
+                                    <!-- Indicator dots -->
+                                    <circle cx="10" cy="130" r="5" fill="#b927fc" />
+                                    <circle cx="200" cy="20" r="5" fill="#b927fc" />
+                                    <circle cx="390" cy="130" r="5" fill="#b927fc" />
+                                    <circle cx="10" cy="130" r="8" fill="none" stroke="#00f2fe" stroke-width="2" id="playhead"/>
+                                </svg>
+                                <div class="graph-labels">
+                                    <span>0.1x (Slow)</span>
+                                    <span>Custom Curve (Ramp Up to 10x)</span>
+                                    <span>0.1x (Slow)</span>
+                                </div>
+                            </div>
+                            <div class="demo-animation-box">
+                                <div class="ball-runner" id="ballSpeed"></div>
+                                <span class="ball-label">Linear vs. Curve Animation Rendering</span>
+                            </div>
+                            <div class="sandbox-actions">
+                                <button class="btn btn-small" id="triggerSpeedAnim">Simulate Speed Ramp</button>
+                            </div>
+                        </div>
+
+                        <!-- Optical Flow Demo -->
+                        <div class="demo-wrapper hidden" id="demoOpticalFlow">
+                            <div class="optical-grid">
+                                <div class="frame-card">
+                                    <div class="frame-num">Frame A (t=0)</div>
+                                    <div class="frame-content">
+                                        <div class="frame-obj" style="left: 20%; top: 50%;"></div>
+                                    </div>
+                                </div>
+                                <div class="frame-card computed">
+                                    <div class="frame-num">Optical Flow (t=0.5)</div>
+                                    <div class="frame-content">
+                                        <div class="frame-obj computed-obj" style="left: 50%; top: 50%;"></div>
+                                        <div class="motion-vectors"></div>
+                                    </div>
+                                </div>
+                                <div class="frame-card">
+                                    <div class="frame-num">Frame B (t=1)</div>
+                                    <div class="frame-content">
+                                        <div class="frame-obj" style="left: 80%; top: 50%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="demo-desc text-center">
+                                <p class="small text-muted"><strong>Optical Flow Feature:</strong> A machine learning algorithm analyzes adjacent frames, calculates the motion vectors of individual pixels, and generates entirely new intermediate frames for a fluid, high-fidelity slow-motion playback.</p>
+                            </div>
+                            <div class="sandbox-actions">
+                                <button class="btn btn-small" id="triggerFlowAnim">Interpolate Frames</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 2: Next-Generation AI -->
+            <section id="ai-pipelines" class="doc-section scroll-spy-target">
+                <h2>2. Next-Generation AI & Intelligent Automation Pipelines</h2>
+                <p>
+                    As mobile video production enters a highly automated era, CapCut distinguishes itself by embedding sophisticated artificial intelligence capabilities natively within its processing pipeline. These intelligent functions eliminate tedious manual workflows, significantly speeding up content delivery.
+                </p>
+
+                <div class="features-list">
+                    <div class="feature-item glass-card">
+                        <div class="feature-header">
+                            <span class="feature-tag">ASR Neural Network</span>
+                            <h3>Auto Captions & Speech Recognition</h3>
+                        </div>
+                        <p>
+                            Pipes the project's audio track through an automated speech recognition (ASR) system. This neural network transcribes spoken words into synchronized textual subtitles arranged directly on the editing timeline. Supports multiple global languages and handles complex regional dialects with high accuracy. Typography across all caption cards can be styled uniformly in a single action.
+                        </p>
+                    </div>
+
+                    <div class="feature-item glass-card">
+                        <div class="feature-header">
+                            <span class="feature-tag">NLP Audio Synthesis</span>
+                            <h3>Text-to-Speech Translation</h3>
+                        </div>
+                        <p>
+                            An advanced Text-to-Speech (TTS) engine supporting nearly 93 distinct languages and local dialects. Users type their script directly into a text layer and apply the TTS function. The app processes the text string using natural language processing (NLP) models to generate lifelike human voiceovers. Editors can choose from a large gallery of vocal profiles, ranging from casual narrative tones to energetic promotional voices and character voice changers.
+                        </p>
+                    </div>
+
+                    <div class="feature-item glass-card">
+                        <div class="feature-header">
+                            <span class="feature-tag">Semantic Segmentation</span>
+                            <h3>Automated Background Removal & Subject Isolation</h3>
+                        </div>
+                        <p>
+                            Completely bypasses manual masking or studio green screens. Using semantic image segmentation models, the AI identifies human subjects or distinct foreground elements within a frame, establishes an intricate boundary edge mask, and discards the surrounding background pixels. This happens automatically, enabling complex spatial layering, sticker generation, and video composition on the fly.
+                        </p>
+                    </div>
+
+                    <div class="feature-item glass-card">
+                        <div class="feature-header">
+                            <span class="feature-tag">Biometric Alignment</span>
+                            <h3>Intelligent Face Tracking & Facial Contouring</h3>
+                        </div>
+                        <p>
+                            A real-time Face Tracking system that locks onto moving facial structures within a scene. This allows users to attach graphical elements, tracking stickers, or localized pixelation masks to a face, ensuring they stay perfectly synced as the subject moves across the frame. Furthermore, this technology powers the Reshape Feature, which simplifies advanced facial contouring.
+                        </p>
+                    </div>
+
+                    <div class="feature-item glass-card highlight-border">
+                        <div class="feature-header">
+                            <span class="feature-tag premium">Dreamina Seedance 2.0</span>
+                            <h3>CapCut Video Studio & Generative AI Canvas</h3>
+                        </div>
+                        <p>
+                            A timeline-free, canvas-based workspace that integrates generative artificial intelligence across the entire creative process. Powered by the Dreamina Seedance 2.0 generative engine, this ecosystem supports complete conceptual ideation, digital storyboarding, instantaneous scene generation, and editing within a singular unified canvas. Users write descriptive text prompts to generate high-resolution imagery, descriptive typography, or short video clips from scratch.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="app-media-grid margin-top">
+                    <figure class="app-media-card glass-card">
+                        <img src="assets/capcut-overlay.webp" alt="CapCut overlay editing interface" loading="lazy">
+                        <figcaption>Overlay composition with layered preview controls.</figcaption>
+                    </figure>
+                    <figure class="app-media-card glass-card">
+                        <img src="assets/capcut-effects.webp" alt="CapCut effects library interface" loading="lazy">
+                        <figcaption>High-quality effects and visual presets for fast styling.</figcaption>
+                    </figure>
+                    <figure class="app-media-card glass-card">
+                        <img src="assets/capcut-style.webp" alt="CapCut AI style and outfit editor interface" loading="lazy">
+                        <figcaption>AI-assisted styling tools for creative experiments.</figcaption>
+                    </figure>
+                    <figure class="app-media-card glass-card">
+                        <img src="assets/capcut-velocity.webp" alt="CapCut velocity effects editor interface" loading="lazy">
+                        <figcaption>Velocity and motion controls inside the timeline workflow.</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <!-- Section 3: Asset Libraries -->
+            <section id="assets" class="doc-section scroll-spy-target">
+                <h2>3. Asset Libraries, Typography, and Cross-Platform Sharing</h2>
+                <p>
+                    A video project requires more than raw video footage; it relies heavily on sensory styling through visual asset libraries, distinct text layouts, and auditory landscapes. CapCut provides an expansive ecosystem built to fulfill these exact artistic requirements.
+                </p>
+
+                <div class="timeline-steps">
+                    <div class="step-card glass-card">
+                        <div class="step-badge">Visuals</div>
+                        <h3>Text Layouts, Custom Typography, and Stickers</h3>
+                        <p>Visual storytelling relies heavily on crisp text overlays and active graphic indicators. CapCut provides an expansive array of built-in typography assets, text animation presets, and categorized virtual stickers. If the extensive built-in font catalog doesn't match a specific brand identity, users can import custom font file wrappers (such as .ttf or .otf files) directly into their local app directory. This is paired with weekly updates of cinematic filters and color grading presets.</p>
+                    </div>
+                    <div class="step-card glass-card">
+                        <div class="step-badge">Audio</div>
+                        <h3>Audio Extraction and Music Integration</h3>
+                        <p>CapCut links directly with ByteDance’s music repositories, providing millions of music tracks, cinematic backing clips, and localized sound effects. It offers a specialized Audio Extraction pipeline: the software splits the audio stream from video containers, placing it as a standalone audio layer on the timeline. A built-in copyright checking mechanism scans active audio tracks against global licensing matrices to protect creators from copyright strikes.</p>
+                    </div>
+                    <div class="step-card glass-card">
+                        <div class="step-badge">Render</div>
+                        <h3>High-Resolution Rendering and Smart Export Targets</h3>
+                        <p>Once a project is finalized, the media engine compiles all timeline layers into a cohesive digital file. CapCut allows deep customization of export parameters, enabling users to choose resolutions between 480p, 720p, 1080p, and pristine 2K/4K configurations up to 60fps. On compatible devices, CapCut parses wide color gamuts and deep luminance profiles through Smart HDR (High Dynamic Range) algorithms.</p>
+                    </div>
+                </div>
+
+                <div class="wide-media-callout glass-card margin-top">
+                    <img src="assets/capcut-home.webp" alt="CapCut project home screen with editing tools" loading="lazy">
+                    <div>
+                        <span class="feature-tag">Mobile Workspace</span>
+                        <h3>Project Hub and One-Tap Creative Tools</h3>
+                        <p>CapCut's mobile workspace groups common tools like background removal, photo editing, auto captions, templates, retouching, and image enhancement into a fast launcher so creators can start editing without digging through nested menus.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 4: Technical Specifications -->
+            <section id="technical-specs" class="doc-section scroll-spy-target">
+                <h2>4. Technical Specifications & Device Architecture Breakdown</h2>
+                <p>
+                    Deploying CapCut across Android ecosystems requires matching compiled application binaries with specific smartphone system hardware profiles. Understanding the underlying code distribution model helps users avoid installation failures and optimize rendering performance.
+                </p>
+
+                <div class="spec-search-bar">
+                    <input type="text" id="specSearchInput" placeholder="Filter by Build, Architecture, or Screen DPI...">
+                </div>
+
+                <p class="table-scroll-hint">Tap each card below for full build details</p>
+                <div class="table-responsive">
+                    <table class="styled-table" id="specsTable">
+                        <thead>
+                            <tr>
+                                <th>Build Release Identifier</th>
+                                <th>Release Date</th>
+                                <th>Target Hardware Architecture</th>
+                                <th>Min OS Required</th>
+                                <th>Screen DPI Profiles</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="bold">18.4.0 BUNDLE 25 S</td>
+                                <td>June 24, 2026</td>
+                                <td>arm64-v8a + armeabi-v7a</td>
+                                <td>Android 6.0+ (Marshmallow)</td>
+                                <td>Multi-Density (120-640dpi)</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">18.4.0 Standalone APK</td>
+                                <td>June 24, 2026</td>
+                                <td>arm64-v8a + armeabi-v7a</td>
+                                <td>Android 6.0+ (Marshmallow)</td>
+                                <td>Unified (nodpi)</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">18.4.0 BUNDLE 34 S</td>
+                                <td>June 30, 2026</td>
+                                <td>arm64-v8a + armeabi-v7a</td>
+                                <td>Android 6.0+ (Marshmallow)</td>
+                                <td>Multi-Density (120-640dpi)</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">18.4.0 Base APK Build</td>
+                                <td>June 30, 2026</td>
+                                <td>arm64-v8a + armeabi-v7a</td>
+                                <td>Android 6.0+ (Marshmallow)</td>
+                                <td>Unified (nodpi)</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">18.4.0 Native arm64 APK</td>
+                                <td>July 4, 2026</td>
+                                <td>Pure 64-Bit arm64-v8a</td>
+                                <td>Android 6.0+ (Marshmallow)</td>
+                                <td>Unified (nodpi)</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">18.5.0 Premium Stable</td>
+                                <td>July 6, 2026</td>
+                                <td>arm64-v8a + armeabi-v7a</td>
+                                <td>Android 5.0+ / 6.0+</td>
+                                <td>Flexible Multi-Variant</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">18.6.0 Pipeline Master</td>
+                                <td>July 8, 2026</td>
+                                <td>arm64-v8a Core Optimized</td>
+                                <td>Android 6.0+ (Marshmallow)</td>
+                                <td>High-Density nodpi Array</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="note-box margin-top">
+                    <h4>Architectural Component Breakdown:</h4>
+                    <ul>
+                        <li><strong>Package Name Identifier:</strong> <code>com.lemon.lvoverseas</code></li>
+                        <li><strong>File Size Metrics:</strong> Ranges from 203.34 MB up to 296.2 MB depending on compiled asset dependencies and embedded libraries.</li>
+                        <li><strong>CPU Instruction Sets:</strong> Modern builds use the pure 64-bit <code>arm64-v8a</code> structure for maximum registers and memory processing. Legacy fallback is maintained via dual-compilation layers with <code>armeabi-v7a</code> for 32-bit hardware.</li>
+                        <li><strong>Screen DPI Management:</strong> <code>nodpi</code> releases use a layout scale engine that dynamically adapts UI assets to screen resolutions without scaling distortions, while targeted <code>120-640dpi</code> bundles optimize asset storage based on display specifications.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 5: Security Threat Assessment -->
+            <section id="security-threats" class="doc-section scroll-spy-target">
+                <h2>5. Comprehensive Security Threat Assessment: Official Pro APK vs. Cracked Modifications</h2>
+                <p>
+                    The massive demand for high-tier video editing capabilities has led to a surge in searches for modified packages, commonly referred to as CapCut MOD APK or cracked applications. While these unofficial modifications promise to unlock premium filters, remove export watermarks, and bypass monthly subscription paywalls for free, they introduce significant cybersecurity risks and software instability.
+                </p>
+
+                <div class="grid grid-3">
+                    <div class="risk-card glass-card">
+                        <div class="risk-badge badge-high">High Risk</div>
+                        <h3>Cybersecurity & Malware</h3>
+                        <p>Cracked or modded APK files obtained from third-party sites are completely unverified and present direct access threats.</p>
+                        <ul class="risk-details">
+                            <li><strong>Spyware Injection:</strong> Can silently log keystrokes, capture credentials, and siphon private personal files.</li>
+                            <li><strong>Adware Networks:</strong> Includes aggressive background adware loops and browser redirects.</li>
+                            <li><strong>Excessive Permissions:</strong> Demands root access or unvetted permissions to control system APIs.</li>
+                        </ul>
+                    </div>
+
+                    <div class="risk-card glass-card">
+                        <div class="risk-badge badge-medium">Instability</div>
+                        <h3>Operational Vulnerabilities</h3>
+                        <p>Modified applications lack connection to official maintenance structures, causing constant operational issues.</p>
+                        <ul class="risk-details">
+                            <li><strong>Runtime Crashes:</strong> Code hooks to bypass checks are unstable, causing project database corruption.</li>
+                            <li><strong>No Security Patches:</strong> Misses out on vital bug fixes and OTA updates, exposing devices to system-level exploits.</li>
+                            <li><strong>No Customer Support:</strong> Zero troubleshooting support or data recovery channels for corrupt files.</li>
+                        </ul>
+                    </div>
+
+                    <div class="risk-card glass-card">
+                        <div class="risk-badge badge-medium">Compliance</div>
+                        <h3>Legal & Account Risks</h3>
+                        <p>Bypassing paywalls violates international copyright laws and ByteDance’s official Terms of Service.</p>
+                        <ul class="risk-details">
+                            <li><strong>Account Restriction:</strong> Dynamic API checks detect unauthorized distributions, resulting in permanent device/account bans.</li>
+                            <li><strong>TikTok & Cloud Bans:</strong> Loss of access to connected social profiles and cloud backups.</li>
+                            <li><strong>Ecosystem Harm:</strong> Starves developers of the resources required to pay for ASR/TTS AI servers and license content.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 6: Official Feature Comparison Matrix -->
+            <section id="comparison" class="doc-section scroll-spy-target">
+                <h2>6. Official Feature Comparison Matrix</h2>
+                <p>
+                    For creators weighing their options, understanding the exact functional boundaries between the baseline free application and the official premium CapCut Pro APK model is essential.
+                </p>
+
+                <p class="table-scroll-hint">Tap each card below for the full feature comparison</p>
+                <div class="table-responsive">
+                    <table class="styled-table matrix-table">
+                        <thead>
+                            <tr>
+                                <th>Feature Set</th>
+                                <th>Baseline Free Application</th>
+                                <th>Official Paid Pro APK Subscription</th>
+                                <th class="cracked-col">Unofficial Cracked / Modded APK</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="bold">Watermark Management</td>
+                                <td>Mandatory animated brand card appended at the end of exports.</td>
+                                <td>100% Watermark-Free production outputs.</td>
+                                <td class="cracked-col">Bypasses watermark placement, but risks malware.</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Max Rendering Resolution</td>
+                                <td>Cap at standard 1080p or lower bitrates under high frame rates.</td>
+                                <td>Unlocks full 4K Ultra HD at a smooth 60fps with Smart HDR.</td>
+                                <td class="cracked-col">Claims 4K output, but often suffers from memory leaks.</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">AI Background Separation</td>
+                                <td>Basic, linear chroma keying options.</td>
+                                <td>Next-gen automated semantic subject isolation masks.</td>
+                                <td class="cracked-col">Unlocked, but prone to regional server disconnects.</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Asset Library Access</td>
+                                <td>Limited catalog of standard filters, transitions, and stickers.</td>
+                                <td>Full access to premium, weekly-updated asset catalogs.</td>
+                                <td class="cracked-col">Unlocked asset catalog, but lacks regular updates.</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Cloud Storage Allocation</td>
+                                <td>Restrictive storage caps (typically limited to 1GB).</td>
+                                <td>Expands up to 10GB of secure, encrypted cloud sync space.</td>
+                                <td class="cracked-col">Cloud storage and backup systems are entirely disabled.</td>
+                            </tr>
+                            <tr class="highlight-row">
+                                <td class="bold">System Security & Updates</td>
+                                <td class="text-success">Safe, verified by Play Protect with automatic updates.</td>
+                                <td class="text-success">Safely audited, certified, with instant access to new features.</td>
+                                <td class="text-danger cracked-col">Highly unstable; exposed to malware and data theft.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Section 7: Step-by-Step Deployment Matrix -->
+            <section id="deployment" class="doc-section scroll-spy-target">
+                <h2>7. Step-by-Step Deployment Matrix: How to Safely Install Official CapCut Pro APK</h2>
+                <p>
+                    To maintain maximum data privacy and system stability, users should always deploy CapCut through official channels. If you prefer to manually install the official package via an APK file rather than installing it directly through the Google Play Store, use this step-by-step walkthrough to complete the installation safely.
+                </p>
+
+                <!-- Interactive Deployment Guide -->
+                <div class="deployment-wizard glass-card">
+                    <div class="wizard-header">
+                        <div class="wizard-steps-indicator">
+                            <span class="step-dot active" data-step="1">1</span>
+                            <span class="step-dot" data-step="2">2</span>
+                            <span class="step-dot" data-step="3">3</span>
+                            <span class="step-dot" data-step="4">4</span>
+                        </div>
+                        <div class="wizard-progress-bar">
+                            <div class="wizard-progress-fill" id="wizardProgress" style="width: 0%;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="wizard-content">
+                        <!-- Step 1 Content -->
+                        <div class="wizard-pane active" id="pane1">
+                            <span class="wizard-step-num">Phase 1</span>
+                            <h3>Clean System Preparation</h3>
+                            <p>Before starting a manual package installation, you must clean up your system to prevent installation errors or package conflicts.</p>
+                            <ol class="pane-list">
+                                <li>Navigate to your device's <strong>Settings > Apps > All Apps</strong> menu.</li>
+                                <li>Locate any older or duplicate versions of the CapCut application and select <strong>Uninstall</strong>. This ensures your device's package installer won't encounter signature collision conflicts, which trigger the common "App Not Installed" error.</li>
+                            </ol>
+                        </div>
+                        
+                        <!-- Step 2 Content -->
+                        <div class="wizard-pane" id="pane2">
+                            <span class="wizard-step-num">Phase 2 & 3</span>
+                            <h3>Secure Package Acquisition & Alerts</h3>
+                            <p>Downloading and parsing files safely prevents infected files from entering storage directories.</p>
+                            <ol class="pane-list">
+                                <li>Launch a secure web browser and go directly to CapCut's official web home at <strong>capcut.com</strong>.</li>
+                                <li>Locate the downloads section, where you will see options for direct Google Play installation or manual package download via the <strong>Download Android APK</strong> button.</li>
+                                <li>Click <strong>Download Android APK</strong>. If Android displays the standard warning <em>"This type of file may be harmful"</em>, proceed safely by selecting <strong>Download anyway</strong> since you are fetching it from CapCut's verified repository.</li>
+                            </ol>
+                        </div>
+                        
+                        <!-- Step 3 Content -->
+                        <div class="wizard-pane" id="pane3">
+                            <span class="wizard-step-num">Phase 4</span>
+                            <h3>Enabling System Installation Permissions</h3>
+                            <p>You must grant authorization to the package management installer wizard to allow manual installation.</p>
+                            <ol class="pane-list">
+                                <li>Once the download finishes, open your device's native <strong>File Manager</strong> utility and go to your <strong>Downloads</strong> folder.</li>
+                                <li>Tap on the official installer file (e.g., <code>com.lemon.lvoverseas_18.5.0.apk</code>) to launch the Android package management wizard.</li>
+                                <li>Tap <strong>Settings</strong> directly within the security dialogue prompt, toggle on the permission switch labeled <strong>Allow from this source</strong>, and proceed.</li>
+                            </ol>
+                        </div>
+
+                        <!-- Step 4 Content -->
+                        <div class="wizard-pane" id="pane4">
+                            <span class="wizard-step-num">Final Step</span>
+                            <h3>Deployment and Verification</h3>
+                            <p>Verify installation parameters and execute the finalized system setup.</p>
+                            <ol class="pane-list">
+                                <li>Click <strong>Install</strong> on the final installation wizard prompt.</li>
+                                <li>Wait for the installation processing bar to finish.</li>
+                                <li>Launch your newly installed CapCut app safely and register/login to synchronize your editing workspace assets.</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="wizard-footer">
+                        <button class="btn btn-secondary btn-small" id="prevBtn" disabled>Back</button>
+                        <button class="btn btn-primary btn-small" id="nextBtn">Continue</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 8: Advanced Troubleshooting -->
+            <section id="troubleshooting" class="doc-section scroll-spy-target">
+                <h2>8. Advanced Troubleshooting and Runtime Maintenance Guide</h2>
+                <p>
+                    Even when using official releases, editing high-resolution video timelines with multiple layers can push mobile hardware to its limits, resulting in performance dips or network timeouts. Use this technical troubleshooting playbook to fix common errors.
+                </p>
+
+                <!-- Searchable Troubleshoot Cards -->
+                <div class="troubleshoot-explorer">
+                    <div class="troubleshoot-tabs">
+                        <button class="troubleshoot-tab active" data-target="ts-network">Network / Connection</button>
+                        <button class="troubleshoot-tab" data-target="ts-install">"App Not Installed"</button>
+                        <button class="troubleshoot-tab" data-target="ts-export">Export Freezing at 99%</button>
+                    </div>
+
+                    <div class="troubleshoot-content glass-card">
+                        <!-- Network Content -->
+                        <div class="ts-pane active" id="ts-network">
+                            <h3>Resolving "No Internet Connection" & "Too Many People Using This Feature"</h3>
+                            <p class="text-muted small">These errors usually happen when the application struggles to establish a stable connection with remote asset deployment servers, or during periods of heavy server load.</p>
+                            <div class="solution-steps">
+                                <div class="solution-step">
+                                    <span class="step-index">01</span>
+                                    <div>
+                                        <strong>The App Reset Method:</strong>
+                                        <p>Completely close the application, remove it from your device's active multitasking app tray, and relaunch it once or twice. The app's built-in self-repair code can automatically clear hanging connection pools.</p>
+                                    </div>
+                                </div>
+                                <div class="solution-step">
+                                    <span class="step-index">02</span>
+                                    <div>
+                                        <strong>Activate Business Creator Mode:</strong>
+                                        <p>Go to the app's internal Settings panel, locate the Business Creator Mode toggle, and switch it ON. This routes your project's data requests through professional-tier business network nodes, bypassing crowded public user server lanes.</p>
+                                    </div>
+                                </div>
+                                <div class="solution-step">
+                                    <span class="step-index">03</span>
+                                    <div>
+                                        <strong>Virtual Private Network (VPN) Fallbacks:</strong>
+                                        <p>If you live in a region where local telecom providers restrict access to ByteDance server nodes, use a reliable VPN utility (such as Proton VPN). Connect to a high-speed server located in an unrestricted region (like the United States) before opening CapCut to ensure the app's advanced AI asset engines can load properly.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Install Content -->
+                        <div class="ts-pane" id="ts-install">
+                            <h3>Fixing "App Not Installed" Failures During Manual Setup</h3>
+                            <p class="text-muted small">This error indicates a system-level block that prevents the package installer wizard from writing the app's files to your device.</p>
+                            <div class="solution-steps">
+                                <div class="solution-step">
+                                    <span class="step-index">01</span>
+                                    <div>
+                                        <strong>Check Storage Space:</strong>
+                                        <p>Verify that your smartphone has at least 1.5 GB to 2 GB of free internal storage space. If storage is full, the system won't be able to decompress the app's files during installation.</p>
+                                    </div>
+                                </div>
+                                <div class="solution-step">
+                                    <span class="step-index">02</span>
+                                    <div>
+                                        <strong>Verify CPU Architecture:</strong>
+                                        <p>Ensure you didn't download an incompatible system build. For instance, a pure 64-bit arm64-v8a installer package cannot install on older 32-bit armeabi-v7a hardware setups.</p>
+                                    </div>
+                                </div>
+                                <div class="solution-step">
+                                    <span class="step-index">03</span>
+                                    <div>
+                                        <strong>Disable Marketplace Auto-Updates:</strong>
+                                        <p>To prevent the Google Play Store from automatically overwriting your manually configured app version with a different build, open the Play Store settings and disable automatic updates for CapCut.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Export Content -->
+                        <div class="ts-pane" id="ts-export">
+                            <h3>Preventing Video Export Freezes at 99%</h3>
+                            <p class="text-muted small">It can be incredibly frustrating when a heavy 4K video export progress bar moves smoothly all the way to 99%, only to freeze indefinitely right before saving.</p>
+                            <div class="solution-steps">
+                                <div class="solution-step">
+                                    <span class="step-index">01</span>
+                                    <div>
+                                        <strong>Clear Local System Cache:</strong>
+                                        <p>This issue is typically caused by system memory exhaustion or corrupt temporary cache files. To fix this, minimize your project, navigate to your phone's Settings > Apps > CapCut, open the storage configuration menu, and select Clear Cache. Relaunch the app and start the export process again.</p>
+                                    </div>
+                                </div>
+                                <div class="solution-step">
+                                    <span class="step-index">02</span>
+                                    <div>
+                                        <strong>Lower Project Export Variables:</strong>
+                                        <p>If your phone continues to overheat or freeze, lower your project's export parameters slightly. For example, drop the resolution from 4K down to 1080p, or lower the frame rate slider from 60fps down to 30fps to reduce the load on your device's processor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 9: FAQ -->
+            <section id="faq" class="doc-section scroll-spy-target">
+                <h2>9. Frequently Asked Questions (FAQ)</h2>
+                <div class="faq-search-bar">
+                    <input type="text" id="faqSearchInput" placeholder="Search FAQs...">
+                </div>
+
+                <div class="faq-container">
+                    <!-- FAQ 1 -->
+                    <div class="faq-item">
+                        <button class="faq-question">What is CapCut Pro APK, and how does it differ from the regular version? <span class="arrow"></span></button>
+                        <div class="faq-answer">
+                            <p>CapCut Pro APK is the premium subscription tier of the mobile video editing application. While the free version offers comprehensive basic editing tools, it applies an animated branding watermark at the end of exported videos and locks advanced tools behind a paywall. Upgrading to the official Pro version removes all watermarks, unlocks ultra-high-definition 4K 60fps rendering, gives you up to 10GB of secure cloud storage, and opens up the complete catalog of advanced AI tools and premium effects.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 2 -->
+                    <div class="faq-item">
+                        <button class="faq-question">Is it safe to download and use a cracked or modded version of CapCut Pro? <span class="arrow"></span></button>
+                        <div class="faq-answer">
+                            <p>No, using cracked or modded versions of CapCut Pro from third-party websites carries significant security risks. These unauthorized packages are frequently bundled with dangerous malware, spyware tracking loops, or malicious adware networks that can compromise your personal data privacy and infect your phone. Additionally, modded apps suffer from frequent crashes, lack access to official security updates, and can lead to permanent bans on your linked social media profiles.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 3 -->
+                    <div class="faq-item">
+                        <button class="faq-question">Can I safely download CapCut outside of the Google Play Store? <span class="arrow"></span></button>
+                        <div class="faq-answer">
+                            <p>Yes, you can safely download the official application installer file directly from CapCut's official website (capcut.com). This official APK file is completely safe, regularly audited for security vulnerabilities, and matches the version distributed through mainstream app stores, making it ideal for devices that lack access to the Google Play Store.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 4 -->
+                    <div class="faq-item">
+                        <button class="faq-question">Why does my phone display a "Parsing Error" when I try to install the APK? <span class="arrow"></span></button>
+                        <div class="faq-answer">
+                            <p>A parsing error usually points to an incomplete or corrupted download, which often occurs if your internet connection drops during the download process. It can also mean the app's version requirements don't match your phone's hardware—such as trying to install a modern 64-bit application on an older smartphone running an outdated version of Android.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 5 -->
+                    <div class="faq-item">
+                        <button class="faq-question">Do I need to root my Android phone to use manual APK installers? <span class="arrow"></span></button>
+                        <div class="faq-answer">
+                            <p>No, rooting your smartphone is completely unnecessary. CapCut APK installers deploy normally on standard, unmodified Android operating systems. All that's required is toggling on the "Install Unknown Apps" permission for your file manager or web browser within your device's security settings.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 6 -->
+                    <div class="faq-item">
+                        <button class="faq-question">How can I fix the "No Internet Connection" error in CapCut? <span class="arrow"></span></button>
+                        <div class="faq-answer">
+                            <p>You can resolve this error by closing the application entirely, removing it from your phone's recent apps tray, and reopening it. If the issue persists, go into CapCut's internal settings and enable Business Creator Mode, or connect to a high-speed VPN service before opening the app to ensure your device can establish a stable connection with CapCut's asset servers.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 7 -->
+                    <div class="faq-item">
+                        <button class="faq-question">What is the 15-minute video limitation inside the application? <span class="arrow"></span></button>
+                        <div class="faq-answer">
+                            <p>While CapCut is an exceptional tool for creating short-form social content, the free version cap places a maximum limit of 15 minutes on any single edited video project timeline, and limits free cloud uploads to a maximum of 1GB. For creators looking to produce long-form content, upgrading to the official Pro tier or migrating projects to desktop environments removes these timeline restrictions.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section: Download -->
+            <section id="download" class="doc-section scroll-spy-target">
+                <h2>10. Download CapCut Pro APK — Official Builds</h2>
+                <p>Choose the correct build for your Android device. All packages are sourced from the official CapCut repository and are fully verified, malware-free, and match the versions distributed through the Google Play Store.</p>
+
+                <div class="download-hero-banner glass-card">
+                    <div class="download-banner-content">
+                        <div class="download-banner-icon">
+                            <img src="assets/capcut-logo.webp" alt="CapCut logo" class="download-logo-img" loading="lazy">
+                        </div>
+                        <div class="download-banner-info">
+                            <h3>CapCut Pro APK v18.6.0</h3>
+                            <p class="text-muted small">Latest stable build · Released July 8, 2026 · arm64-v8a Optimized</p>
+                            <div class="download-badges">
+                                <span class="dl-badge">296.2 MB</span>
+                                <span class="dl-badge">Android 6.0+</span>
+                                <span class="dl-badge dl-badge-safe">✓ Verified Safe</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://www.capcut.com/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-download-main" id="mainDownloadBtn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Download Official APK
+                    </a>
+                </div>
+
+                <div class="grid grid-3 download-cards-grid">
+                    <div class="download-card glass-card">
+                        <div class="download-card-header">
+                            <span class="download-card-badge recommended">★ Recommended</span>
+                            <h4>Pipeline Master Build</h4>
+                            <span class="version-tag">v18.6.0</span>
+                        </div>
+                        <div class="download-card-meta">
+                            <div class="meta-row"><span>Architecture</span><strong>arm64-v8a Core Optimized</strong></div>
+                            <div class="meta-row"><span>Released</span><strong>July 8, 2026</strong></div>
+                            <div class="meta-row"><span>Min Android</span><strong>6.0+ Marshmallow</strong></div>
+                            <div class="meta-row"><span>DPI Support</span><strong>High-Density nodpi</strong></div>
+                        </div>
+                        <a href="https://www.capcut.com/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-download-card">Download <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+                    </div>
+
+                    <div class="download-card glass-card">
+                        <div class="download-card-header">
+                            <span class="download-card-badge stable">Stable</span>
+                            <h4>Premium Stable Build</h4>
+                            <span class="version-tag">v18.5.0</span>
+                        </div>
+                        <div class="download-card-meta">
+                            <div class="meta-row"><span>Architecture</span><strong>arm64-v8a + armeabi-v7a</strong></div>
+                            <div class="meta-row"><span>Released</span><strong>July 6, 2026</strong></div>
+                            <div class="meta-row"><span>Min Android</span><strong>5.0+ / 6.0+</strong></div>
+                            <div class="meta-row"><span>DPI Support</span><strong>Flexible Multi-Variant</strong></div>
+                        </div>
+                        <a href="https://www.capcut.com/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-download-card">Download <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+                    </div>
+
+                    <div class="download-card glass-card">
+                        <div class="download-card-header">
+                            <span class="download-card-badge universal">Universal</span>
+                            <h4>Standalone APK Build</h4>
+                            <span class="version-tag">v18.4.0</span>
+                        </div>
+                        <div class="download-card-meta">
+                            <div class="meta-row"><span>Architecture</span><strong>arm64-v8a + armeabi-v7a</strong></div>
+                            <div class="meta-row"><span>Released</span><strong>June 24, 2026</strong></div>
+                            <div class="meta-row"><span>Min Android</span><strong>6.0+ Marshmallow</strong></div>
+                            <div class="meta-row"><span>DPI Support</span><strong>Unified (nodpi)</strong></div>
+                        </div>
+                        <a href="https://www.capcut.com/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-download-card">Download <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+                    </div>
+                </div>
+
+                <div class="note-box margin-top">
+                    <h4>⚠️ Download Safety Checklist</h4>
+                    <ul>
+                        <li><strong>Always use official source:</strong> Only download from <code>capcut.com</code> or the Google Play Store.</li>
+                        <li><strong>Verify file size:</strong> The official APK ranges from 203 MB to 296 MB. Suspicious files with unusually small sizes may be modified.</li>
+                        <li><strong>Scan before install:</strong> Run the downloaded APK through your mobile security app before executing the installer.</li>
+                        <li><strong>Enable sideloading safely:</strong> Toggle "Install from Unknown Sources" only for your browser/file manager, not system-wide.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 11: Conclusion -->
+            <section class="doc-section scroll-spy-target">
+                <h2>11. Conclusion: Embrace Creative Freedom Safely</h2>
+                <div class="conclusion-box glass-card">
+                    <p>
+                        CapCut has fundamentally transformed mobile video editing by making professional post-production tools incredibly accessible. Whether you are cutting basic video clips, using keyframe animation vectors, or leveraging advanced AI workflows like auto-captions and background removal, the platform provides an all-in-one ecosystem that scales effortlessly with your creative skills.
+                    </p>
+                    <p>
+                        However, protecting your digital workspace requires a strong commitment to device safety. While the allure of third-party cracked modifications promising free premium features is understandable, the associated risks—including malware infections, system instability, data privacy violations, and potential account bans—far outweigh the benefits.
+                    </p>
+                    <p>
+                        By deploying the official application through secure channels like the Google Play Store or capcut.com, you ensure a safe, stable, and high-performance editing experience. This approach keeps your data secure and supports the engineering teams who build and maintain the tools powering today's digital creator economy.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="assets/capcut-logo.webp" alt="CapCut logo" class="footer-logo-img" loading="lazy">
+                <span class="logo-text">CapCut<span>Pro</span> <small class="logo-badge">Guide</small></span>
+            </div>
+            <a href="#download" class="btn btn-primary footer-download-btn">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                Download APK
+            </a>
+            <p>&copy; 2026 CapCut Pro Technical Resource Hub. All rights reserved.</p>
+            <p class="text-muted small">This is a technical, educational resource guide. All registered trademarks and logos belong to ByteDance Pte. Ltd.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Download Button -->
+    <a href="#download" class="fab-download" id="fabDownload" aria-label="Download APK">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        <span>Download APK</span>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
